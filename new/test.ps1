@@ -1,5 +1,5 @@
-Describe 'Notepad' {
+Describe 'storage' {
     It 'Exists in Windows folder' {
-        'C:\Windows\notepad.exe' | Should #-Exist
+        'storage' | Should #-Exist
     }
 }	
